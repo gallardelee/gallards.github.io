@@ -1,0 +1,257 @@
+body{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.landing{
+  background-image: url(PIcs/bible.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+}
+.overlay{
+  background-color: rgb(48, 35, 35);
+
+}
+.content{
+  margin-right: 30%;
+  text-align: left;
+  color: black;
+  padding: 20px;
+  max-width: 500px;
+}
+h1{
+  font-size: 60px;
+  margin-bottom: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+h3 {
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+p {
+  color: black;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.button{
+  background-color:#ffffff;
+  text-decoration: none;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: context-menu;
+}
+.button a{
+  text-decoration: none;
+  color: black;
+}
+.button:hover{
+  background-color: rgb(209, 157, 157);
+}
+.logo{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+.logo img{
+  width: 70px;
+  height: auto;
+  border-radius: 8px;
+}
+.foot{
+  background-color: rgba(36, 31, 31, 0.671);
+  text-align: center;
+  padding: 2px 1px;
+  font-size: 14px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 0;
+}
+.links{
+  margin-bottom: 10px;
+}
+.links a{
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s;
+}
+
+
+.container{
+  background-image: url(PIcs/peace.jpg);
+  background-position: 50%;
+  width: 100%;
+  height: 100vh;
+  padding: 20px;
+  margin: 0 auto;
+  
+ 
+}
+.back {
+  
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.land{
+  padding: 10px;
+}
+.land a{
+  text-decoration:none;
+}
+.land h1 {
+  color: yellow;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  letter-spacing: 5px;
+  margin: 0;
+  font-size: 24px;
+  text-align: left;
+}
+  
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+.nav a:hover {
+  text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.6);
+  transform: translateY(-2px);
+}
+.mis img{
+  height: 40vh;
+  border-radius: 30px;
+ 
+}
+.mis h1{
+  text-align: center;
+
+}
+.mis img:hover{
+  margin-top: -2%;
+}
+.Mission{
+  display: flex;
+  flex-wrap: wrap;
+  
+  margin-top: 10%;
+  gap: 5%;
+  color: white;
+  text-shadow: 10px 10px 30px white;
+  padding-bottom: 2%;
+  justify-content: center;
+}
+.vis img{
+  border-radius: 30px;
+  height: 40vh;
+ 
+}
+.vis h1{
+  text-align: center;
+}
+.vis img:hover{
+  margin-top: -2%;
+}
+.Vision{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5%;
+  color: white;
+  text-shadow: 10px 10px 30px white;
+  padding-bottom: 2%;
+}
+.main1 img{
+  width: 30%;
+  border-radius: 50px;
+  height: 35vh;
+}
+.main{
+  justify-content: center;
+}
+.container2 {
+  background-color: rgb(193, 196, 170);
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.branches{
+  text-align: center;
+  font-size: 30px;
+}
+.description{
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.branch{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-bottom: 40px;
+  background-color: rgb(92, 86, 86);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(141, 39, 39, 0.1);
+  overflow: hidden;
+  width: 80%;
+  margin-left: 10%;
+}
+.branch:hover{
+  background-color: aliceblue;
+}
+.branch img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  
+}
+.section-content {
+  flex: 1;
+  padding: 20px;
+  
+}
+.log{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+.log img{
+  width: 70px;
+  height: auto;
+  border-radius: 8px;
+}
+.but{
+  margin-left: 50%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.but a{
+  
+  text-decoration: none;
+}

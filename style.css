@@ -16,10 +16,7 @@ body{
   
 
 }
-.overlay{
-  background-color: rgb(48, 35, 35);
 
-}
 .content{
   margin-right: 30%;
   text-align: left;
@@ -89,6 +86,16 @@ p {
   text-decoration: none;
   margin: 0 10px;
   transition: color 0.3s;
+}.log{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 10;
+}
+.log img{
+  width: 70px;
+  height: auto;
+  border-radius: 8px;
 }
 
 
@@ -193,7 +200,7 @@ p {
 .main{
   justify-content: center;
 }
-.container2 {
+.container1 {
   background-color: rgb(193, 196, 170);
   width: 100%;
   margin: 0 auto;
@@ -225,33 +232,109 @@ p {
   background-color: aliceblue;
 }
 .branch img {
-  width: 100%;
-  max-width: 300px;
-  height: auto;
-  
+  width: 100%;      
+  max-width: 300px; 
+  height: auto;      
+  display: block;    
+  border-radius: 10px;
 }
 .section-content {
   flex: 1;
   padding: 20px;
   
 }
-.log{
-  position: absolute;
-  top: 20px;
-  right: 20px;
-  z-index: 10;
-}
-.log img{
-  width: 70px;
-  height: auto;
-  border-radius: 8px;
-}
+
+
 .but{
   margin-left: 50%;
-  border-radius: 10px;
+  border-radius: 10%;
   margin-bottom: 10px;
+  justify-content: center;
 }
 .but a{
   
   text-decoration: none;
+}
+
+.container3{
+  flex-direction: row;
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  gap: 20px;
+}
+
+.lf h1{
+  font-size: 30px;
+}
+
+.container2 {
+  background-color: rgb(193, 196, 170);
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.sched{
+  background-color: rgb(147, 150, 127);
+  width: 30%;
+  height: 50vh;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+
+.container4{
+  flex-direction: row;
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  gap: 20px;
+}
+
+.container5{
+  flex-direction: row;
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  gap: 20px;
+}
+.container6{
+  flex-direction: row;
+  display: flex;
+  justify-content: left;
+  padding: 20px;
+  gap: 20px;
+  background-color: rgb(193, 196, 170);
+}
+
+.galleri {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 28px;
+  color: #333;
+}
+
+
+.gall {
+  text-align: center;
+  padding: 20px;
+}
+
+
+.gall img {
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  transition: transform 0.3s, border-color 0.3s;
+  
+}
+
+.gall img:hover {
+  transform: scale(1.05);
+  border-color: #007bff;
 }
